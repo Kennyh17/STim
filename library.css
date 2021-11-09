@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-color:lightgrey;
+
+}
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    padding: 10px;
+    height: 50px;
+}
+.navbar :hover{
+    text-transform: uppercase;
+    color: red;
+}
+.navbar a{
+    text-decoration:none ;
+    color:white;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.body{
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin: 50px;
+}
+.body img{
+    width: 230px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.Fet{
+    display: flex;
+    background-color:darkgreen;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.rec{
+    display: flex;
+    background-color:dodgerblue;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    background-color: sandybrown;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.fav{
+    font-size: 30px;
+    padding-top: 100px;
+}
+.Featured{
+    font-size: 30px;
+    padding-top: 95px;
+}
+.Recomended{
+    font-size: 30px;
+    padding-top: 100px;
+}
+.Featured button{
+    background-color:steelblue;
+    border: 1px  solid black;
+    border-radius: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.Featured button:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    background-color:white;
+}
+.f1{
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) ;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    height: 370px;
+    border-radius: 15px;
+}
+.f1 img :hover{
+    cursor: pointer;
+}
+.footer{
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+}

@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color:lightgrey;
+    
+
+}
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    padding: 10px;
+    height: 50px;
+}
+.navbar :hover{
+    text-transform: uppercase;
+    color: red;
+}
+.navbar a{
+    text-decoration:none ;
+    color:white;
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.body{
+    background :rgba(255,255,255,.2) ;
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    padding : 30px
+}
+.body h2{
+    text-align: center;
+}
+form{
+    padding-top: 5px;
+    color:black;
+    font-size: 18px;
+    margin: 10px;
+    margin-bottom: 10px;
+    top: 20px;
+}
+
+#Country{
+    position: relative;
+    padding: 0 20px;
+    left: 77px;
+    top: -5px;
+    line-height: 0px;
+    width: 205px;
+}
+#name{
+    position: relative;
+    padding: 0 22px;
+    left: 62px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+#username{
+    position: relative;
+    padding: 0 22px;
+    left: 65px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+#Email{
+    position: relative;
+    padding: 0 22px;
+    left: 95px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+#password{
+    position: relative;
+    padding: 0 22px;
+    left: 67px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+#Payment{
+    position: relative;
+    padding: 0 22px;
+   
+}
+
+
+#DebitCredit{
+    position: relative;
+    padding: 0 22px;
+    left: 45px;
+    top: -3px;
+    line-height: 10px;
+    width: 200px;
+}
+#Expired{
+    position: relative;
+    padding: 0 22px;
+    left: 80px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+
+.footer{
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.Payment{
+display: flex;
+}
+.Payment #Payment{
+    margin-right: 30px;
+}

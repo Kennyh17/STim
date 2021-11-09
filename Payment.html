@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STim
+    </title>
+    <link rel="stylesheet" href="Payment.css">
+    <script defer src="Payment.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="asset/messageImage_1623564313781-removebg-preview.png" alt="">
+    </div>
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Library.html">Library</a>
+        <a href="News.html">News</a>
+        <a href="AboutUS.html">About Us</a>
+        <a href="Payment.html">Payment</a>
+    </div>
+    <div class="body">
+        <form  name ="form" action="Home.html" method="POST">
+            <h2>Form Registration</h2>
+            <div>
+                <label for="Contry" ><b>Country</b></label>
+                <select  id="Country" name="Country" required>
+                    <option value="">Select Country</option>
+                    <option value="Indonesia">Indonesia </option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="UnitedStates">United State</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+            <div>
+                <label for="name"><b> Full Name </b></label>
+                <input id="name" name="name" type="text" placeholder="Enter Your Full Name">
+            </div>
+            <div>
+                <label for="username"><b> Username </b></label>
+                <input id="username" name="username" type="text" placeholder="Enter Your Username">
+            </div>
+            <div>
+                <label for="Email"><b> Email </b></label>
+                <input id="Email" name="Email" type="text" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <label for="password"><b>Password</b></label>
+                <input id="password" name="password" type="password" placeholder="Enter Your Password" >
+            </div>
+            <b>Payment Methods</b> 
+            <div  class="Payment" >
+                    <label for="Payment" >Paypal</label>
+                    <input type="radio"  required name="Payment" id="Payment" value="Paypal" >
+                    <label for="Payment">MasterCard</label>
+                    <input type="radio" required name="Payment" id="Payment" value="Mastercard">
+                    <label for="Payment">Bank Transfer</label>
+                    <input type="radio" required name="Payment" id="Payment" value="Bank Transfer">
+            </div>
+            <div>
+                <label for="Debit/Credit"><b>Debit/Credit</b></label>
+                <input id="DebitCredit" name="Debit/Credit" type="text"placeholder="Enter Your Credit/Debit Number">
+            </div>
+            <div>
+                <label for="Expired"><b>Expired</b></label>
+                <input id="Expired" name="Expired" type="text" placeholder="00/00">
+            </div>
+            <div id="error"></div>
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+    <div class="footer">
+        Copyright &copy; 2021
+    </div>
+</body>
+</html>

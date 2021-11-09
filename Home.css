@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background-color:lightgrey;
+
+}
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    padding: 10px;
+    height: 50px;
+}
+.navbar :hover{
+    text-transform: uppercase;
+    color: red;
+}
+.navbar a{
+    text-decoration:none ;
+    color:white;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.body{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.body img{
+    width: 220px;
+    height: 180px;
+}
+
+.bodi{
+    background-image: url(asset/background-news.jpg);
+    margin: 5px;
+}
+
+.content{
+    display: flex;
+}
+.left{
+    flex: 40%;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+.left :hover{
+    cursor: pointer;
+}
+.left h2{
+    text-align: center;
+}
+.game1 img{
+width: 200px;
+height: 150px;
+}
+.game1 p{
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.abt{
+    background-image:url(asset/abt.jpg) ;
+    
+}
+
+.abt h1{
+    font-size: 30px;
+color: white;
+text-align: center;
+}
+
+.abt p{
+font-size: 30px;
+color: white;
+text-align: center;
+}
+
+.game2 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+
+ }
+ .game2 p{
+     margin-top: 100px;
+        padding: 10px;
+        font-size: 16px;
+}
+
+
+
+.right{
+    flex: 60%;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+.right h2{
+    text-align: center;
+}
+.event1{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+.event1 :hover{
+    cursor: pointer;
+}
+.event1 p{
+    padding: 10px;
+    font-size: 16px;
+}
+.event1 img{
+    width: 200px;
+    height: 150px;
+}
+
+.game1{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.game2{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+.footer{
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+}
